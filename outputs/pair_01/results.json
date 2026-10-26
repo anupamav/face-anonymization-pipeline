@@ -1,0 +1,87 @@
+{
+  "height": {
+    "height_tip_euclidean_cm": 120.71682478633683,
+    "head_pixel_xy": [
+      363,
+      453
+    ],
+    "foot_pixel_xy": [
+      363,
+      1212
+    ],
+    "head_xyz_m": [
+      0.0012905867010136558,
+      -0.2940812296276014,
+      0.9532078634566582
+    ],
+    "foot_xyz_m": [
+      0.0014314382545498646,
+      0.9085960940057088,
+      1.0572386955622033
+    ],
+    "head_band_depth_m": 0.9532078634566582,
+    "foot_band_depth_m": 1.0572386955622033,
+    "top_band_observed_fraction": 0.9855694692903996,
+    "bottom_band_observed_fraction": 0.9947124917382684,
+    "same_column": true,
+    "endpoint_warning": null
+  },
+  "camera_to_child_distance": {
+    "observed_segmented_depth": {
+      "distance_m": 0.9714539147285249,
+      "distance_cm": 97.1453914728525,
+      "valid_pixels": 76631,
+      "retained_pixels": 73746,
+      "iqr_fence_low_m": 0.7795000076293945,
+      "iqr_fence_high_m": 1.1595001220703125,
+      "status": "OK",
+      "convention": "optical_axis_Z"
+    },
+    "filled_segmented_depth": {
+      "distance_m": 0.9706034587686412,
+      "distance_cm": 97.06034587686412,
+      "valid_pixels": 78976,
+      "retained_pixels": 75947,
+      "iqr_fence_low_m": 0.7916865283149783,
+      "iqr_fence_high_m": 1.1498559425442907,
+      "status": "OK",
+      "convention": "optical_axis_Z"
+    }
+  },
+  "face_status": "MANUAL_DRAW_FACE_BOX_INTERSECTED_WITH_CHILD_MASK",
+  "masking_trace": [
+    {
+      "stage": "MEDIAPIPE_FACE",
+      "status": "NO_MATCHING_FACE"
+    },
+    {
+      "stage": "YOLO_POSE",
+      "status": "YOLO_POSE_FACE_LANDMARKS_INCOMPLETE"
+    },
+    {
+      "stage": "SAPIENS2_1B_POSE",
+      "status": "SAPIENS2_1B_EYE_SPAN_TOO_SMALL"
+    },
+    {
+      "stage": "MANUAL_DRAW",
+      "status": "MANUAL_DRAW_FACE_BOX_INTERSECTED_WITH_CHILD_MASK",
+      "overlap": 0.9176954732510288
+    }
+  ],
+  "face_bbox_xyxy": [
+    384,
+    483,
+    438,
+    600
+  ],
+  "face_overlap": 0.9176954732510288,
+  "face_review_required": true,
+  "calibration": {
+    "fx": 649.872,
+    "fy": 649.872,
+    "cx": 362.120112,
+    "cy": 653.496832,
+    "depth_scale": 1.0
+  },
+  "interpretation": "Geometric prototype; not validated clinical anthropometry"
+}
