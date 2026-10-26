@@ -2,6 +2,12 @@
 
 This pipeline estimates height and camera-to-child depth from aligned RGB-D images and anonymizes the face. MUAC estimation is not included.
 
+## Pipeline preview
+
+![RGB-D pipeline summary showing RGB, depth, filled depth, height and camera distance, pose, and face masking](outputs/pair_01/pipeline_summary.png)
+
+This pipeline estimates height and camera-to-child depth from aligned RGB-D images and anonymizes the face. MUAC estimation is not included.
+
 ## Inputs and calibration
 
 Inputs are an RGB image, a registered depth map, and camera intrinsics. NumPy arrays, RGB PNG/JPEG, and raw depth PNG/TIFF are supported. A coloured depth visualization is not a metric depth map.
